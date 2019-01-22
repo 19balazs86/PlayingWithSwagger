@@ -9,5 +9,5 @@ Resources:
 - Microsoft video: [YouTube link](https://www.youtube.com/watch?v=_vw3hcnSA1Y "YouTube link").
 - Medium blog: [Open API Analyzers and Conventions](https://medium.com/volosoft/open-api-analyzers-conventions-82d74cfff11b "Open API Analyzers and Conventions").
 - C# Corner: [Test Your ASP.NET Core Web API With Swagger](https://www.c-sharpcorner.com/article/test-your-asp-net-core-web-api-with-swagger "Test Your ASP.NET Core Web API With Swagger").
-- [NSwagStudio](https://github.com/RSuter/NSwag/wiki/NSwagStudio "NSwagStudio") to generate a client side code about the Web API.
+- [NSwagStudio](https://github.com/RSuter/NSwag/wiki/NSwagStudio "NSwagStudio") to [generate a client side code](https://www.c-sharpcorner.com/article/how-to-use-nswag-with-asp-net-core-and-generate-client-code-with-nswag-studio "generate a client side code") about the Web API.
 - [Disable XML comment warning notification](https://dev.to/coolgoose/how-to-disable-notifications-in-aspnet-core-20-for-missing-xml-comment-for-publicly-visible-type-or-member-29ab "Disable XML comment warning notification").
