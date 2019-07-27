@@ -4,6 +4,8 @@ This small application is an example to use Swagger and generating documentation
 
 Swashbuckle and NSwag, 2 options to generate Swagger documentation.
 
+[Separate branch](https://github.com/19balazs86/PlayingWithSwagger/tree/netcoreapp2.2) with the .NET Core 2.2 version.
+
 #### Resources
 
 - MSDN: [ASP.NET Core web API help pages with Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.0).
