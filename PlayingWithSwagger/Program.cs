@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 
 [assembly: ApiConventionType(typeof(DefaultApiConventions))]
 
@@ -10,11 +10,16 @@ namespace PlayingWithSwagger
   {
     public static void Main(string[] args)
     {
-      CreateWebHostBuilder(args).Build().Run();
+      CreateHostBuilder(args).Build().Run();
     }
 
-    public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-      WebHost.CreateDefaultBuilder(args)
-        .UseStartup<Startup>();
+    public static IHostBuilder CreateHostBuilder(string[] args)
+    {
+      return Host
+        .CreateDefaultBuilder(args)
+        .ConfigureWebHostDefaults(webHostBuilder =>
+          webHostBuilder
+            .UseStartup<Startup>());
+    }
   }
 }
