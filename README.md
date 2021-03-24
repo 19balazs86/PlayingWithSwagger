@@ -19,3 +19,8 @@ Swashbuckle and NSwag, 2 options to generate Swagger documentation.
 - [RSuter/NSwag](https://github.com/RSuter/NSwag/wiki/NSwagStudio) *(GitHub)*
 - [How To Use Nswag With ASP.NET Core And Generate Client Code](https://www.c-sharpcorner.com/article/how-to-use-nswag-with-asp-net-core-and-generate-client-code-with-nswag-studio) *(C# Corner)*
 - [Auto Generated .NET API Clients using NSwag](https://damienbod.com/2019/02/13/auto-generated-net-api-clients-using-nswag-and-swashbuckle-swagger).
+
+#### Other resources
+
+- [Using OpenApiReference To Generate Open API Client Code](https://stevetalkscode.co.uk/openapireference-commands) *(Steve Collins)*
+
