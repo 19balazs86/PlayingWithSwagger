@@ -8,6 +8,7 @@ Swashbuckle and NSwag, 2 options to generate Swagger documentation.
 
 #### Resources
 
+- [OpenAPI Configurations in Web API](https://codingsonata.com/swagger-openapi-configurations-in-asp-net-core-web-api) *(JWT, Minimal API, .NET 7)* *(Coding Sonata)*
 - [ASP.NET Core web API help pages with Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.0) *(MSDN)*
 - [Configuring and Using Swagger UI](https://code-maze.com/swagger-ui-asp-net-core-web-api) *(Code-Maze)*
 - [Open API Analyzers and Conventions](https://medium.com/volosoft/open-api-analyzers-conventions-82d74cfff11b) *(Medium)*
