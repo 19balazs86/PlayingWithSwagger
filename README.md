@@ -17,4 +17,5 @@ Swashbuckle and NSwag, 2 options to generate Swagger documentation.
 
 #### Other resources
 
+- [Swagger setup for WebAPI with API Key authentication](https://github.com/19balazs86/PlayingWithAuthentication?tab=readme-ov-file#project-apikeyauth) 👤*My repository: PlayingWithAuthentication*
 - [How to use enums in routes and Swagger](https://daninacan.com/how-to-use-enums-in-asp-net-core-routes) 📓*Daniel Ward - IRouteConstraint, EnumSchemaFilter*
