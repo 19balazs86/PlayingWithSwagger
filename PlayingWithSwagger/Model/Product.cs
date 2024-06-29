@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PlayingWithSwagger.Model
+namespace PlayingWithSwagger.Model;
+
+public class Product
 {
-  public class Product
-  {
     public int Id { get; set; }
     /// <summary>
     /// Name of the product.
@@ -12,5 +12,4 @@ namespace PlayingWithSwagger.Model
     public string Name { get; set; }
     public int Price { get; set; }
     public string Description { get; set; }
-  }
 }

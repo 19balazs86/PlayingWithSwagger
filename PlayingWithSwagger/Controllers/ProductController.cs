@@ -1,26 +1,24 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PlayingWithSwagger.Model;
 
-namespace PlayingWithSwagger.Controllers
+namespace PlayingWithSwagger.Controllers;
+
+/// <summary>
+/// This controller is responsible for manage the product object.
+/// </summary>
+[Produces("application/json")]
+[Route("api/[controller]")]
+[ApiController]
+public class ProductController : ControllerBase
 {
-  /// <summary>
-  /// This controller is responsible for manage the product object.
-  /// </summary>
-  [Produces("application/json")]
-  [Route("api/[controller]")]
-  [ApiController]
-  public class ProductController : ControllerBase
-  {
     /// <summary>
     /// Get all products.
     /// </summary>
     [HttpGet]
     public IEnumerable<Product> Get()
     {
-      return Enumerable.Range(1, 5).Select(x
-           => new Product { Name = $"Product-{x}", Price = x * 10, Description = $"P{x}-Description" });
+        return Enumerable.Range(1, 5).Select(x
+             => new Product { Name = $"Product-{x}", Price = x * 10, Description = $"P{x}-Description" });
     }
 
     /// <summary>
@@ -30,10 +28,10 @@ namespace PlayingWithSwagger.Controllers
     [HttpGet("{id}")]
     public ActionResult<Product> Get(int id)
     {
-      if (id == 5)
-        return NotFound();
+        if (id == 5)
+            return NotFound();
 
-      return new Product { Name = $"Product-{id}", Price = id * 10, Description = $"P{id}-Description" };
+        return new Product { Name = $"Product-{id}", Price = id * 10, Description = $"P{id}-Description" };
     }
 
     /// <summary>
@@ -45,7 +43,7 @@ namespace PlayingWithSwagger.Controllers
     [HttpPost]
     public ActionResult<Product> Post([FromBody] Product product)
     {
-      return CreatedAtAction(nameof(Get), new { product.Id }, product);
+        return CreatedAtAction(nameof(Get), new { product.Id }, product);
     }
 
     /// <summary>
@@ -59,10 +57,10 @@ namespace PlayingWithSwagger.Controllers
     //[ProducesDefaultResponseType]
     public IActionResult Put(int id, [FromBody] Product product)
     {
-      if (id == 5)
-        return NotFound();
+        if (id == 5)
+            return NotFound();
 
-      return NoContent();
+        return NoContent();
     }
 
     /// <summary>
@@ -72,10 +70,9 @@ namespace PlayingWithSwagger.Controllers
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
-      if (id == 5)
-        return NotFound();
+        if (id == 5)
+            return NotFound();
 
-      return Ok();
+        return Ok();
     }
-  }
 }
