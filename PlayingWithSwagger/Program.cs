@@ -44,6 +44,7 @@ public static class Program
 
         options.SwaggerDoc("v1.0", info);
 
+        // To generate the XML file is defined in the csproj file configuring the DocumentationFile property
         options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "PlayingWithSwagger.xml"));
     }
 }
