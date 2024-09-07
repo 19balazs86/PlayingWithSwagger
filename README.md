@@ -10,6 +10,7 @@ This small application is an example to use Swagger and generating documentation
 - [Configuring and Using Swagger UI](https://code-maze.com/swagger-ui-asp-net-core-web-api) 📓*Code-Maze* | [Video](https://youtu.be/lml_j5ujjeQ) - 13 min
 - [Adding custom header parameter to all endpoints](https://code-maze.com/aspnetcore-adding-a-custom-header-parameter-to-all-api-endpoints-in-swagger) 📓*Code-Maze*
   - [Swagger setup for WebAPI with API Key authentication](https://github.com/19balazs86/PlayingWithAuthentication?tab=readme-ov-file#project-apikeyauth) 👤*My repository: PlayingWithAuthentication*
+- [Swagger setup with implicit OAuth flow for Auth0](https://github.com/19balazs86/PlayingWithAuthentication/blob/main/BlazorWASM.Auth0.JWT.OpenIDConnect/BlazorWASM.Auth0.JWT.OpenIDConnect/Server/Program.cs) 👤*My repository: PlayingWithAuthentication*
 
 #### Generating an API client
 
